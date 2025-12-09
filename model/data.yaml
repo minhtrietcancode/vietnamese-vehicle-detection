@@ -1,0 +1,17 @@
+# YOLOv8 Dataset Configuration for Vietnamese Vehicles
+
+# Paths (absolute paths for Colab)
+path: /content/new_train_test_data  # root directory
+train: train/images  # train images
+val: val/images  # validation images
+test: test  # test images (optional)
+
+# Number of classes
+nc: 4
+
+# Class names
+names:
+  0: motorbike
+  1: car
+  2: minibus
+  3: van_truck_container
